@@ -52,7 +52,8 @@ input:not([type="file"]):hover {
 }
 
 #sticky {
-  width:100%;
+  width:99%;
+  position: absolute;
   padding-bottom:16px;
   padding-top: 16px;
   background:black;
@@ -60,11 +61,7 @@ input:not([type="file"]):hover {
   font-weight:bold;
   font-size:18px;
   text-align:center;
-  right: 0
-  position:relative;    /*Here's what sticks it*/
   bottom:0;          /*to the bottom of the body*/
-  left:0;            /*and to the left of the body.*/
   /*EFFECTS*/
   border-top:1px solid whitesmoke;
-  background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
 }
